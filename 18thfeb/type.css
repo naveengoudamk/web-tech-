@@ -1,0 +1,27 @@
+
+hr{
+    height: 10px;
+    color: black;
+}
+
+body{
+    background-color: lightblue;
+    background-image: url(./XXADJTf-jOJzz6Xg4I3gTkB5UKKhWGYOz43BoeQiqxrpl0CwUf4Q3mvpAbhh_IzpFoR6C3iH7ORsW6JjEJMkWIV5XYW_7oerzhd4siXn3HA.jpeg);
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    background-attachment:fixed;
+}
+h1{
+    text-align:center;
+}
+div{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    background-image: url(./5Abl7GRJHdGEJmtyz51s-uyahP46y3RNLNiI2DvZ6Y1mvs4ju86af3cD0OZrMZ8CFFE4qntp09mBU_AUQtShTus3cRtwHgOhbehF5x4X5cY.jpeg);
+    background-size: 100vh 600px;
+    background-repeat:no-repeat ;
+}
+#pp{
+    color: aquamarine;
+}

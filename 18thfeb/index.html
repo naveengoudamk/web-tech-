@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18th feb</title>
+    <link rel="stylesheet" href="./type.css">
+</head>
+<body>
+    <h1>Background CSS</h1>
+    <hr>
+    <pre>
+    CSS BACKGROUND PROPERTIES — COMPLETE NOTES
+
+1. background-color
+Purpose: Sets the background color of an element.
+Syntax:
+  background-color: value;
+Values:
+  color name | hex | rgb | rgba | hsl
+Example:
+  background-color: lightblue;
+
+--------------------------------------------------
+
+2. background-image
+Purpose: Adds an image as the background.
+Syntax:
+  background-image: url("image.jpg");
+Notes:
+  • Default repeats both directions
+  • Multiple images can be added (comma-separated)
+
+--------------------------------------------------
+
+3. background-repeat
+Purpose: Controls how the background image repeats.
+Values:
+  repeat (default)
+  repeat-x
+  repeat-y
+  no-repeat
+  space
+  round
+Example:
+  background-repeat: no-repeat;
+
+--------------------------------------------------
+
+4. background-position
+Purpose: Sets the starting position of the background image.
+Values:
+  keywords → left | center | right | top | bottom
+  length/percentage → 20px 50%
+Example:
+  background-position: center center;
+
+--------------------------------------------------
+
+5. background-size
+Purpose: Defines the size of the background image.
+Values:
+  auto (default)
+  cover   → fills container, may crop
+  contain → fits inside container
+  custom  → 200px 100px
+Example:
+  background-size: cover;
+
+--------------------------------------------------
+
+6. background-attachment
+Purpose: Controls scrolling behavior of background.
+Values:
+  scroll (default)
+  fixed  → stays fixed (parallax effect)
+  local
+Example:
+  background-attachment: fixed;
+
+--------------------------------------------------
+
+7. background-origin
+Purpose: Defines the positioning area of the background image.
+Values:
+  padding-box (default)
+  border-box
+  content-box
+
+--------------------------------------------------
+
+8. background-clip
+Purpose: Defines the painting area of the background.
+Values:
+  border-box
+  padding-box
+  content-box
+  text (used for text background effects)
+
+--------------------------------------------------
+
+9. background (SHORTHAND)
+Purpose: Combines all background properties.
+Recommended order:
+  background: color image position / size repeat attachment origin clip;
+
+Example:
+  background: #000 url("bg.jpg") center/cover no-repeat fixed;
+
+--------------------------------------------------
+
+MEMORY TIP → CIRPSA
+C = Color
+I = Image
+R = Repeat
+P = Position
+S = Size
+A = Attachment
+</pre>
+<hr>
+<div>
+    <pre style="" id="pp">
+                MEMORY TIP → CIRPSA
+                C = Color
+                I = Image
+                R = Repeat
+                P = Position
+                S = Size
+                A = Attachment
+    </pre>
+    
+</div>
+    
+</body>
+</html>
