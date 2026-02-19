@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+p::first-letter{
+    color: blue;
+}
+p::first-line{
+    color: gray;
+}
+p::after{
+    text-align: right;
+    content: "🙏 thank you 🙏"
+}
+p::before{
+    content: "😌🫂";
+}
+p::selection{
+    color: red;
+    background-color: aquamarine;
+}

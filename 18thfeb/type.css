@@ -19,9 +19,11 @@ div{
     width: 100vw;
     background-color: aquamarine;
     background-image: url(./5Abl7GRJHdGEJmtyz51s-uyahP46y3RNLNiI2DvZ6Y1mvs4ju86af3cD0OZrMZ8CFFE4qntp09mBU_AUQtShTus3cRtwHgOhbehF5x4X5cY.jpeg);
-    background-size: 100vh 600px;
+    background-size: 100vw 100vh;
     background-repeat:no-repeat ;
 }
 #pp{
     color: aquamarine;
+    text-align: center;
+   
 }
