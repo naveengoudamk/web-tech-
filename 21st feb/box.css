@@ -1,0 +1,27 @@
+
+h1{
+    text-align: center;
+}
+
+p{
+    /* border-width: 10px;
+    border-style: double;
+    border-color: silver; 
+
+    border: 10px groove goldenrod; */
+
+    /* padding
+    width: 600px;
+    padding-top: 50px;
+    padding-right: 500px;
+    padding-bottom: 50px;
+    padding-left: 50px; */
+
+    /* padding: 50px; */
+    /* padding: 500px 200px;  10px;
+    padding: 500px 200px;  10px 10px*/
+
+    margin
+    margin-top : 200px;
+    
+}

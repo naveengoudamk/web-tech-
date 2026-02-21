@@ -1,0 +1,21 @@
+div{
+    background-color: aquamarine;
+    height: 500px;
+    width : 400px;
+    border-radius: 50px;
+}
+p{
+    color: blueviolet;
+    width: 300px;
+    padding-left: 40px;
+    text-align: justify;
+}
+button {
+    padding: 5px 30px;
+    margin-left: 40px;
+
+}
+img{
+    padding-left: 40px;
+    padding-top: 40px;
+}

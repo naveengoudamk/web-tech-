@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21st feb</title>
+    <link rel="stylesheet" href="./box.css">
+</head>
+
+<body>
+    <button>Login</button>
+    <h1>Boxmodel</h1>
+    <hr>
+
+    <p>
+        The CSS Box Model is a fundamental concept that describes how every HTML element is displayed as a rectangular
+        box and how its size and spacing are calculated. It consists of four main parts: content, padding, border, and
+        margin, arranged from the inside to the outside.
+
+        The content is the innermost part of the box and represents the actual text, image, or other media inside the
+        element. The width and height properties in CSS apply to this content area by default. Surrounding the content
+        is the padding, which is the space between the content and the border. Padding is transparent and increases the
+        total size of the element. It is used when you want space inside the box so the content does not touch the
+        border.
+
+        Outside the padding comes the border. The border wraps around the padding and content and can have different
+        widths, colors, and styles such as solid, dashed, or dotted. The thickness of the border also adds to the
+        overall size of the element.
+
+        The outermost layer is the margin. Margin is the space outside the border and is used to create distance between
+        elements. Unlike padding, margin does not have a background color and does not affect the internal size of the
+        element, but it does affect spacing between elements on the page.
+
+        By default, CSS uses the box-sizing property with the value content-box. In this model, the width and height you
+        set apply only to the content, and the padding and border are added to calculate the total size. For example, if
+        an element has a width of 200px, padding of 20px, and a border of 5px, the actual rendered width will be 250px
+        (200 + 40 padding + 10 border). Margins are added outside this total.
+
+        To make layout calculations easier, developers often use box-sizing: border-box. In this case, the width and
+        height include the content, padding, and border, so the element’s total size remains exactly what you specify.
+        Because of this convenience, many projects apply border-box to all elements using the universal selector.
+
+        In summary, the CSS Box Model defines how an element’s size is calculated and how space is distributed around
+        it. Understanding it is essential for controlling layout, spacing, alignment, and responsive design, and it
+        helps diagnose most common UI spacing issues.
+    </p>
+
+</body>
+
+</html>

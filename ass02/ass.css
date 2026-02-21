@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: lightslategray;
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+div{
+    height: 500px;
+    width: 100vw;
+    background-color: rgb(225, 225, 225);
+    background-image: url("./audi-a4-car-png-image-black-side-view-8.png");
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+    background-position: center;
+}
+
+h2{
+    text-align: center;
+    color: light;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.demo{
+    height: 500px;
+    width: 100vw;
+    background-color: rgb(244, 241, 239);
+    background-image: url("./front-left-side-47.avif"),url("./images.jpeg"),url("./race\ 2.jpg"),url("./race\ 4.webp");
+   
+    background-repeat: no-repeat;
+    background-size: 275px 275px;
+    background-position: 12% 50%, 35% 50%, 58% 50%, 81% 50%;
+}
+
+h3{
+    text-align: center;
+    color: chocolate;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#demo1{
+    height: 500px;
+    width: 100vw;
+    background-color: rgb(147, 186, 222);
+    background-image: url("./race.avif"),url("./race\ 2.jpg"),url(./race\ 4.webp);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: 10% 50%, 50% 50%, 90% 50%;
+}
