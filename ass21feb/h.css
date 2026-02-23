@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* MAIN SECTION */
+.hero{
+    display:flex;
+    height:100vh;
+}
+
+/* LEFT SIDE */
+.left{
+    width:55%;
+    padding:100px 80px;
+    background:white;
+}
+
+.left h1{
+    font-size:55px;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:30px;
+    color:#111;
+}
+
+.btn-primary{
+    background:#2ec4b6;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    border-radius:25px;
+    font-weight:600;
+    cursor:pointer;
+    margin-bottom:60px;
+}
+
+.content h3{
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.content p{
+    color:#555;
+    max-width:420px;
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* RIGHT SIDE */
+.right{
+    width:45%;
+    background:#ff8f70;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-top-left-radius:180px;
+    border-bottom-left-radius:180px;
+}
+
+/* STEPS */
+.steps{
+    text-align:center;
+    color:white;
+}
+
+.step{
+    margin-bottom:35px;
+}
+
+.circle{
+    width:50px;
+    height:50px;
+    background:white;
+    color:#ff8f70;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    margin:0 auto 10px auto;
+}
+
+.btn-secondary{
+    margin-top:20px;
+    padding:12px 35px;
+    border:none;
+    border-radius:25px;
+    background:white;
+    color:#ff8f70;
+    font-weight:600;
+    cursor:pointer;
+}

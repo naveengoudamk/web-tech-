@@ -1,0 +1,56 @@
+*/* Apply border to everything to show box model */
+* {
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    background-color: #a1a1a1;
+    margin: 0;
+    padding: 40px;
+    font-family: Georgia, serif;
+}
+
+/* Main white container */
+.container {
+    background-color: #fff;
+    padding: 30px;
+}
+
+/* Heading */
+h1 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Text box */
+.text-box {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* List box */
+.list-box {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* List items */
+.list-box li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    padding: 5px 15px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/* Link */
+a {
+    padding: 5px 10px;
+    color: blue;
+}*
