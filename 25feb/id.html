@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout with Form</title>
+
+<style>
+body {
+  font-family: Arial;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px 200px 1fr;
+  grid-template-rows: 60px 120px 260px 140px;
+  gap: 5px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.box {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+/* Header */
+.tiger {
+  grid-column: 1 / 4;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Left vertical */
+.prabhas {
+  grid-row: 2 / 4;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Skills */
+.skills {
+  font-size: 14px;
+}
+
+/* Big form area */
+.form-area {
+  grid-column: 3 / 4;
+}
+
+/* Bottom */
+.appu {
+  grid-column: 1 / 2;
+}
+
+.middle-bottom {
+  grid-column: 2 / 3;
+}
+
+.darshan {
+  grid-column: 3 / 4;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="box tiger">Tiger</div>
+
+  <div class="box prabhas">Prabhas</div>
+
+  <div class="box"></div>
+  <div class="box">Yash</div>
+
+  <div class="box skills">
+    1. Frontend<br>
+    HTML<br>CSS<br>JS<br><br>
+    2. Backend<br>
+    SQL<br>PLSQL<br><br>
+    3. Java<br>
+    4. C#<br>
+    5. Ruby
+  </div>
+
+  <div class="box form-area">
+
+    <h3>Kiccha Sudeep</h3>
+
+    <form>
+      Username:<br>
+      <!-- <input type="text"><br><br> -->
+
+      Password:<br>
+      <!-- <input type="password"><br><br> -->
+
+      Email:<br>
+      <!-- <input type="email"><br><br> -->
+
+      Country:<br>
+      <!-- <input type="text"><br><br> -->
+
+      Gender:<br>
+      <!-- <input type="radio" name="g"> Male
+      <input type="radio" name="g"> Female<br><br> -->
+
+      DOB:<br>
+      <!-- <input type="date"><br><br> -->
+
+      Address:<br>
+      <!-- <textarea rows="2"></textarea><br><br> -->
+
+      <!-- <input type="submit"> -->
+    </form>
+
+  </div>
+
+  <div class="box appu">Appu</div>
+  <div class="box middle-bottom"></div>
+  <div class="box darshan">Darshan</div>
+
+</div>
+
+</body>
+</html>
