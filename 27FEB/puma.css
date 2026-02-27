@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(50, 131, 131);
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(8, 72, 52);
+}
+nav>div>:nth-child(4)
+{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+nav>div:nth-child(4)>div:nth-child(2)
+{
+    display: flex;
+    justify-content: space-around;
+    width : 500px
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav>div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+}
+nav>div>input{
+    padding: 10px 150px; 
+    border-radius: 200px;
+}
+main{
+    height: 300px;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main>div:nth-child(1)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-folder-60.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(2)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-funny-100.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(3)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-source-code-48.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(4)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-folder-60.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(5)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-smiling-50.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(6)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-funny-94-2.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(7)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-folder-60.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+main>div:nth-child(8)
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./icons8-funny-50.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+body>main:nth-child(3)
+{
+    height: 400px;
+    width: 100vw;
+    background-color: rgb(92, 95, 95);
+    background-image: url(./icons8-java-50.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 400px;
+}
