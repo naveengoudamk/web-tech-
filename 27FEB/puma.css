@@ -1,119 +1,100 @@
 *{
-    margin: 0;
+    margin:0;
+    box-sizing:border-box;
 }
+
 nav{
-    display: flex;
-    height: 50px;
-    width: 100vw;
-    background-color: rgb(50, 131, 131);
-    justify-content: space-evenly;
-    align-items: center;
-    color: rgb(8, 72, 52);
+    display:flex;
+    height:60px;
+    width:100%;
+    background-color:#0082c3;
+    justify-content:space-evenly;
+    align-items:center;
+    color:white;
 }
-nav>div>:nth-child(4)
-{
-    display: flex;
-    justify-content: space-around;
-    width: 700px;
+
+/* search */
+nav input{
+    padding:10px 40px;
+    border-radius:20px;
+    border:none;
 }
-nav>div:nth-child(4)>div:nth-child(2)
-{
-    display: flex;
-    justify-content: space-around;
-    width : 500px
+
+/* right side links */
+nav > div:nth-child(4){
+    display:flex;
+    flex-direction:column;
+    gap:5px;
 }
+
+nav > div:nth-child(4) > div:nth-child(2){
+    display:flex;
+    gap:15px;
+}
+
 a{
-    color: black;
-    text-decoration: none;
+    color:white;
+    text-decoration:none;
+    font-size:14px;
 }
-nav>div:nth-child(1){
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
-    align-items: center;
-}
-nav>div>input{
-    padding: 10px 150px; 
-    border-radius: 200px;
-}
+
+/* categories section */
 main{
-    height: 300px;
-    width: 100vw;
-    background-color: red;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    height:300px;
+    width:100%;
+    background-color:#f3f3f3;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
 }
-main>div:nth-child(1)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-folder-60.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+/* category images */
+main > div{
+    height:150px;
+    width:150px;
+    border-radius:10px;
+    background-size:cover;
+    background-position:center;
 }
-main>div:nth-child(2)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-funny-100.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+/* using real decathlon images */
+main > div:nth-child(1){
+    background-image:url("https://contents.mediadecathlon.com/p2203678/k$8fcb0a1e9cfa3c15bbfcbb40f19a1e63/sq/running-shoes.jpg");
 }
-main>div:nth-child(3)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-source-code-48.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+main > div:nth-child(2){
+    background-image:url("https://contents.mediadecathlon.com/p2403676/k$6f3c0b4c77e7e9dcd9a316bed36fb1a1/sq/football.jpg");
 }
-main>div:nth-child(4)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-folder-60.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+main > div:nth-child(3){
+    background-image:url("https://contents.mediadecathlon.com/p2196365/k$3b62c5285bdcf0584d29c3161620eb06/sq/yoga.jpg");
 }
-main>div:nth-child(5)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-smiling-50.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+main > div:nth-child(4){
+    background-image:url("https://contents.mediadecathlon.com/p2186603/k$9e7c4a2f2b1766fa0fe58f3d82405463/sq/cycling.jpg");
 }
-main>div:nth-child(6)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-funny-94-2.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+main > div:nth-child(5){
+    background-image:url("https://contents.mediadecathlon.com/p2188251/k$e17c0e0bbd10b191ed257a7b82d49f683/sq/hiking.jpg");
 }
-main>div:nth-child(7)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-folder-60.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+main > div:nth-child(6){
+    background-image:url("https://contents.mediadecathlon.com/p2164321/k$e25c70cf36c6b3ad72037d399a8ce28b/sq/swimming.jpg");
 }
-main>div:nth-child(8)
-{
-    height: 200px;
-    width: 200px;
-    background-image: url(./icons8-funny-50.png);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
+
+main > div:nth-child(7){
+    background-image:url("https://contents.mediadecathlon.com/p2145678/k$0a9e3c01d10b191ed257a7b82d49f683/sq/cricket.jpg");
 }
-body>main:nth-child(3)
-{
-    height: 400px;
-    width: 100vw;
-    background-color: rgb(92, 95, 95);
-    background-image: url(./icons8-java-50.png);
-    background-repeat: no-repeat;
-    background-size: 100vw 400px;
+
+main > div:nth-child(8){
+    background-image:url("https://contents.mediadecathlon.com/p2212345/k$ddfe91c6e45b8c7c7c7f7e6e5c4b9b3a/sq/training.jpg");
+}
+
+/* hero banner */
+body > main:nth-child(3){
+    height:400px;
+    width:100%;
+    background-image:url("https://contents.mediadecathlon.com/p2389644/k$0a9e3c01d10b191ed257a7b82d49f683/decathlon.jpg");
+    background-size:cover;
+    background-position:center;
 }
