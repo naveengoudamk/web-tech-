@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        hr{
+            height: 10px;
+            background-color: black;
+        }
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+        body>div:nth-child(3){
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            position: absolute;
+            right: 500px;
+            top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body>div:nth-child(3)>div{
+            height: 300px;
+            width: 300px;
+            background-color: lightgoldenrodyellow;
+            border: 3px solid black;
+            animation-name:color;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 4;
+        }
+        @keyframes color {
+            /* from{
+                background-color: lightgoldenrodyellow;
+            }
+            to{
+                background-color: red;
+            } */
+
+            0%{
+                background-color: lightgoldenrodyellow;
+            }
+            25%{
+                background-color: aqua;
+            }
+            50%{
+                background-color: red;
+            }
+            75%{
+                background-color: brown;
+            }
+            100%{
+                background-color: darkorchid;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation in css</h1>
+    <hr>
+    <div>
+        <div></div>
+    </div>
+</body>
+</html>
