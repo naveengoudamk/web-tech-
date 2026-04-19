@@ -1,0 +1,31 @@
+main
+{
+    background-image: url(./XXADJTf-jOJzz6Xg4I3gTkB5UKKhWGYOz43BoeQiqxrpl0CwUf4Q3mvpAbhh_IzpFoR6C3iH7ORsW6JjEJMkWIV5XYW_7oerzhd4siXn3HA.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+header>nav>div:nth-child(2)
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+*
+{
+    margin: 0;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+main>
